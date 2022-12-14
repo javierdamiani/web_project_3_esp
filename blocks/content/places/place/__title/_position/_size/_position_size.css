@@ -1,5 +1,10 @@
-.place__title_position_size{
-    width: fit-content;
-    grid-column-end: subtitle-end;
-    max-width: 584px;
+.place__title_position_size {
+  width: fit-content;
+  grid-column-end: subtitle-end;
+  max-width: 584px;
+}
+@media screen and (max-width: 768px) {
+  .place__title_position_size {
+    max-width: 340px;
+  }
 }

@@ -1,14 +1,13 @@
-.frame__paragraph{
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    text-decoration: none;
-    color: #FFFFFF;
-
+.place__frame-paragraph {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-decoration: none;
+  color: #ffffff;
 }
 @media screen and (max-width: 320px) {
-    .frame__paragraph{
-        font-size: 14px;
-        line-height: 17px;
-    }
+  .frame__paragraph {
+    font-size: 14px;
+    line-height: 17px;
+  }
 }

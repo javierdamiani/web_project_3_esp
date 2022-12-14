@@ -9,6 +9,11 @@
   top: 243px;
   text-align: center;
 }
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .cover__title {
+    top: 246px;
+  }
+}
 @media screen and (max-width: 320px) {
   .cover__title {
     font-size: 32px;

@@ -7,7 +7,7 @@
   text-align: center;
   color: #ffffff;
   position: absolute;
-  text-align: center;
+  /* text-align: center; */
   top: 351px;
 }
 @media screen and (max-width: 320px) {
@@ -16,5 +16,7 @@
     line-height: 16px;
     top: 97px;
     max-width: 280px;
+    left: 20px;
+    right: 20px;
   }
 }

@@ -1,16 +1,20 @@
-.place__frame{
-    grid-area: frame;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 48px;
-    width: 355px;
-    border-radius: 4px;
-    background: #0278FE;
+.place__frame {
+  grid-area: frame;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 355px;
+  border-radius: 4px;
+  background: #0278fe;
+}
+.place__frame:hover {
+  background-color: #0063d2;
+  transition: background-color 0.5s linear;
 }
 @media screen and (max-width: 320px) {
-    .place__frame{
-        max-width: 288px;
-        margin: 8px auto 0;
-    }
+  .place__frame {
+    max-width: 288px;
+    margin: 8px auto 0;
+  }
 }
